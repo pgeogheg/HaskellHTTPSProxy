@@ -1,0 +1,14 @@
+[1 of 2] Compiling Main             ( /tmp/stack6898/HsOpenSSL-0.11.4/Setup.hs, /tmp/stack6898/HsOpenSSL-0.11.4/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/paddy/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack6898/HsOpenSSL-0.11.4/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /tmp/stack6898/HsOpenSSL-0.11.4/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/setup ...
+Configuring HsOpenSSL-0.11.4...
+setup: Missing dependencies on foreign libraries:
+* Missing (or bad) header file: openssl/asn1.h
+* Missing C libraries: crypto, ssl
+This problem can usually be solved by installing the system packages that
+provide these libraries (you may need the "-dev" versions). If the libraries
+are already installed but in a non-standard location then you can use the
+flags --extra-include-dirs= and --extra-lib-dirs= to specify where they are.
+If the header file does exist, it may contain errors that are caught by the C
+compiler at the preprocessing stage. In this case you can re-run configure
+with the verbosity flag -v3 to see the error messages.

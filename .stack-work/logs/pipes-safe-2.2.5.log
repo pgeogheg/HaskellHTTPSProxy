@@ -1,0 +1,13 @@
+Configuring pipes-safe-2.2.5...
+Building pipes-safe-2.2.5...
+Preprocessing library pipes-safe-2.2.5...
+[1 of 2] Compiling Pipes.Safe       ( src/Pipes/Safe.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Pipes/Safe.o )
+
+src/Pipes/Safe.hs:142:1: warning: [-Wunused-imports]
+    The import of ‘Pipes.Lift’ is redundant
+      except perhaps to import instances from ‘Pipes.Lift’
+    To import instances alone, use: import Pipes.Lift()
+[2 of 2] Compiling Pipes.Safe.Prelude ( src/Pipes/Safe/Prelude.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Pipes/Safe/Prelude.o )
+Installing library in
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2/pipes-safe-2.2.5-LPmTAkqciZQCN2uFwVvccM
+Registering pipes-safe-2.2.5...

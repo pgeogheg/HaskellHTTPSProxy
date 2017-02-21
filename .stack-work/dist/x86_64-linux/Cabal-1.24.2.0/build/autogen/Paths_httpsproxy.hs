@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-11/8.0.2/bin"
-libdir     = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2/httpsproxy-0.1.0.0-G8Mil0j4o87HZJaWiDTsLg"
-dynlibdir  = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2"
-datadir    = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-11/8.0.2/share/x86_64-linux-ghc-8.0.2/httpsproxy-0.1.0.0"
-libexecdir = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-11/8.0.2/libexec"
-sysconfdir = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-11/8.0.2/etc"
+bindir     = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-20/8.0.2/bin"
+libdir     = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2/httpsproxy-0.1.0.0-LQuZUq0pf234VyKYYYfUqC"
+dynlibdir  = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2"
+datadir    = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-20/8.0.2/share/x86_64-linux-ghc-8.0.2/httpsproxy-0.1.0.0"
+libexecdir = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-20/8.0.2/libexec"
+sysconfdir = "/home/paddy/Desktop/httpsproxy/.stack-work/install/x86_64-linux/nightly-2017-02-20/8.0.2/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "httpsproxy_bindir") (\_ -> return bindir)

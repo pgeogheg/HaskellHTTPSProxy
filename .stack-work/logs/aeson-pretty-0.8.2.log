@@ -26,7 +26,7 @@ Preprocessing executable 'aeson-pretty' for aeson-pretty-0.8.2...
 [2 of 2] Compiling Main             ( cli-tool/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/aeson-pretty/aeson-pretty-tmp/Main.o )
 Linking .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/aeson-pretty/aeson-pretty ...
 Installing library in
-/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2/aeson-pretty-0.8.2-462yIiWLrrZ6FTUM1Vu54B
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2/aeson-pretty-0.8.2-LQKsD4IidmQL85OLm3c355
 Installing executable(s) in
-/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/bin
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/bin
 Registering aeson-pretty-0.8.2...

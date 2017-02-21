@@ -14,12 +14,12 @@
   (major1) == 4000 && (major2) <  3 || \
   (major1) == 4000 && (major2) == 3 && (minor) <= 5)
 
-/* package aeson-1.0.2.1 */
-#define VERSION_aeson "1.0.2.1"
+/* package aeson-1.1.0.0 */
+#define VERSION_aeson "1.1.0.0"
 #define MIN_VERSION_aeson(major1,major2,minor) (\
   (major1) <  1 || \
-  (major1) == 1 && (major2) <  0 || \
-  (major1) == 1 && (major2) == 0 && (minor) <= 2)
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 0)
 
 /* package base-4.9.1.0 */
 #define VERSION_base "4.9.1.0"
@@ -28,19 +28,96 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
-/* package http-listen-0.1.0.0 */
-#define VERSION_http_listen "0.1.0.0"
-#define MIN_VERSION_http_listen(major1,major2,minor) (\
+/* package bytestring-0.10.8.1 */
+#define VERSION_bytestring "0.10.8.1"
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
   (major1) <  0 || \
-  (major1) == 0 && (major2) <  1 || \
-  (major1) == 0 && (major2) == 1 && (minor) <= 0)
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 8)
 
-/* package servant-server-0.9.1.1 */
-#define VERSION_servant_server "0.9.1.1"
-#define MIN_VERSION_servant_server(major1,major2,minor) (\
+/* package connection-0.2.7 */
+#define VERSION_connection "0.2.7"
+#define MIN_VERSION_connection(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 7)
+
+/* package directory-1.3.0.0 */
+#define VERSION_directory "1.3.0.0"
+#define MIN_VERSION_directory(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  3 || \
+  (major1) == 1 && (major2) == 3 && (minor) <= 0)
+
+/* package haskeline-0.7.3.1 */
+#define VERSION_haskeline "0.7.3.1"
+#define MIN_VERSION_haskeline(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  7 || \
+  (major1) == 0 && (major2) == 7 && (minor) <= 3)
+
+/* package http-client-0.5.5 */
+#define VERSION_http_client "0.5.5"
+#define MIN_VERSION_http_client(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 5)
+
+/* package http-conduit-2.2.3 */
+#define VERSION_http_conduit "2.2.3"
+#define MIN_VERSION_http_conduit(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 3)
+
+/* package http-types-0.9.1 */
+#define VERSION_http_types "0.9.1"
+#define MIN_VERSION_http_types(major1,major2,minor) (\
   (major1) <  0 || \
   (major1) == 0 && (major2) <  9 || \
   (major1) == 0 && (major2) == 9 && (minor) <= 1)
+
+/* package mtl-2.2.1 */
+#define VERSION_mtl "2.2.1"
+#define MIN_VERSION_mtl(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  2 || \
+  (major1) == 2 && (major2) == 2 && (minor) <= 1)
+
+/* package network-2.6.3.1 */
+#define VERSION_network "2.6.3.1"
+#define MIN_VERSION_network(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  6 || \
+  (major1) == 2 && (major2) == 6 && (minor) <= 3)
+
+/* package network-simple-0.4.0.5 */
+#define VERSION_network_simple "0.4.0.5"
+#define MIN_VERSION_network_simple(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  4 || \
+  (major1) == 0 && (major2) == 4 && (minor) <= 0)
+
+/* package servant-server-0.10 */
+#define VERSION_servant_server "0.10"
+#define MIN_VERSION_servant_server(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 0)
+
+/* package split-0.2.3.1 */
+#define VERSION_split "0.2.3.1"
+#define MIN_VERSION_split(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+
+/* package tls-1.3.9 */
+#define VERSION_tls "1.3.9"
+#define MIN_VERSION_tls(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  3 || \
+  (major1) == 1 && (major2) == 3 && (minor) <= 9)
 
 /* package wai-3.2.1.1 */
 #define VERSION_wai "3.2.1.1"
@@ -133,7 +210,7 @@
   (major1) == 2 && (major2) <  26 || \
   (major1) == 2 && (major2) == 26 && (minor) <= 0)
 
-#define CURRENT_COMPONENT_ID "httpsproxy-0.1.0.0-G8Mil0j4o87HZJaWiDTsLg"
+#define CURRENT_COMPONENT_ID "httpsproxy-0.1.0.0-LQuZUq0pf234VyKYYYfUqC"
 
-#define CURRENT_PACKAGE_KEY "httpsproxy-0.1.0.0-G8Mil0j4o87HZJaWiDTsLg"
+#define CURRENT_PACKAGE_KEY "httpsproxy-0.1.0.0-LQuZUq0pf234VyKYYYfUqC"
 

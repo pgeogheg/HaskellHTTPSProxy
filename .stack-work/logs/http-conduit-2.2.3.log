@@ -13,5 +13,5 @@ Network/HTTP/Simple.hs:326:46: warning: [-Wdeprecations]
     In the use of ‘encode’ (imported from Data.Aeson.Encode):
     Deprecated: "Use Data.Aeson or Data.Aeson.Text instead"
 Installing library in
-/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2/http-conduit-2.2.3-5Ypoj38f1ri7G1vBgNLkLJ
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2/http-conduit-2.2.3-3y861WN2AXv4jipofvsLY1
 Registering http-conduit-2.2.3...

@@ -22,7 +22,19 @@ library
                      , wai
                      , warp
                      , HTTP
-                     , http-listen
+                     , http-conduit
+                     , http-client
+                     , http-types
+                     , bytestring
+                     , network
+                     , split
+                     , network-simple
+                     , HTTP
+                     , directory
+                     , haskeline
+                     , mtl
+                     , tls
+                     , connection
   default-language:    Haskell2010
 
 executable httpsproxy-exe

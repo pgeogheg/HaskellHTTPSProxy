@@ -36,5 +36,5 @@ Data/Conduit/Binary.hs:580:36: warning: [-Wdeprecations]
 Data/Conduit/Attoparsec.hs:77:5: warning: [-Wunused-top-binds]
     Defined but not used: ‘notEmpty’
 Installing library in
-/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2/conduit-extra-1.1.15-JEv6O9bpMF8JkNI7vhhZhb
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2/conduit-extra-1.1.15-HIKc7DQvnib9uia0kXnOi5
 Registering conduit-extra-1.1.15...

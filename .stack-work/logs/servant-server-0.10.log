@@ -1,0 +1,25 @@
+[1 of 2] Compiling Main             ( /tmp/stack28298/servant-server-0.10/Setup.lhs, /tmp/stack28298/servant-server-0.10/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/paddy/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack28298/servant-server-0.10/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /tmp/stack28298/servant-server-0.10/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/setup ...
+Configuring servant-server-0.10...
+Building servant-server-0.10...
+Preprocessing library servant-server-0.10...
+[ 1 of 11] Compiling Servant.Server.Internal.ServantErr ( src/Servant/Server/Internal/ServantErr.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal/ServantErr.o )
+[ 2 of 11] Compiling Servant.Server.Internal.Handler ( src/Servant/Server/Internal/Handler.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal/Handler.o )
+[ 3 of 11] Compiling Servant.Server.Internal.RoutingApplication ( src/Servant/Server/Internal/RoutingApplication.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal/RoutingApplication.o )
+[ 4 of 11] Compiling Servant.Server.Internal.Router ( src/Servant/Server/Internal/Router.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal/Router.o )
+[ 5 of 11] Compiling Servant.Server.Internal.Context ( src/Servant/Server/Internal/Context.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal/Context.o )
+[ 6 of 11] Compiling Servant.Server.Internal.BasicAuth ( src/Servant/Server/Internal/BasicAuth.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal/BasicAuth.o )
+[ 7 of 11] Compiling Servant.Server.Internal ( src/Servant/Server/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Internal.o )
+[ 8 of 11] Compiling Servant.Server   ( src/Servant/Server.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server.o )
+[ 9 of 11] Compiling Servant.Utils.StaticFiles ( src/Servant/Utils/StaticFiles.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Utils/StaticFiles.o )
+[10 of 11] Compiling Servant          ( src/Servant.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant.o )
+[11 of 11] Compiling Servant.Server.Experimental.Auth ( src/Servant/Server/Experimental/Auth.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Servant/Server/Experimental/Auth.o )
+Preprocessing executable 'greet' for servant-server-0.10...
+[1 of 1] Compiling Main             ( example/greet.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/greet/greet-tmp/Main.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/greet/greet ...
+Installing library in
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2/servant-server-0.10-GsJ4Vm3s4Ag5xZPFvVzZL9
+Installing executable(s) in
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/bin
+Registering servant-server-0.10...

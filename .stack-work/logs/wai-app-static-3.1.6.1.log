@@ -37,7 +37,7 @@ Preprocessing executable 'warp' for wai-app-static-3.1.6.1...
 [1 of 1] Compiling Main             ( app/warp-static.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/warp/warp-tmp/Main.o )
 Linking .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/warp/warp ...
 Installing library in
-/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/lib/x86_64-linux-ghc-8.0.2/wai-app-static-3.1.6.1-KghWJWtowrMD4odn0mOsku
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/lib/x86_64-linux-ghc-8.0.2/wai-app-static-3.1.6.1-8oqSGoTU4oLHI3gW3h4a9h
 Installing executable(s) in
-/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-11/8.0.2/bin
+/home/paddy/.stack/snapshots/x86_64-linux/nightly-2017-02-20/8.0.2/bin
 Registering wai-app-static-3.1.6.1...
